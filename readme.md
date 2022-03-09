@@ -1,4 +1,4 @@
-#PayerPoints WebService
+# PayerPoints WebService
 This webservice was developed using the Go Gin framework. In order to run the webservice locally Go will have to be
 install. The official instructions can be found here: [Go Install Instructions](https://go.dev/doc/install).
 Instructions will vary by system.
