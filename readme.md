@@ -10,14 +10,14 @@ Once Go is installed and 'go version' gives correct response in order to run and
 * you will see a listener for requests locally
 
 ### Test
-Once project is running there are 3 endpoints which can be used. These can be tested through the unit tests or a network request
+Once project is running there are 3 endpoints which can be used. These can be tested through the unit tests or a network request,
 my favorites are usually Postman or Curl (endpoints listed below).
 
 * Unit Tests:
-  * to test by running unit tests run `go test` from the project route, all the apis are tested and responses should be valid 201/202 responses
+  * to test by running unit tests run `go test` from the project route, all the api's are tested and responses should be valid 201/202 responses
 
 ### Endpoints
-If ran with default settings the base url should be `http://localhost:8080` followed by one of the endpoints below
+If ran with default settings the base url should be `http://localhost:8080` followed by one of the endpoints below and the payload in the response body if any
 
 #### Post
 * `/addTransaction`
